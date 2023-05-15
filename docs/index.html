@@ -4,184 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="generative poetry,electronic literature, shuffle template">
-    <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="style.css">
+    <title>Diary</title>
+</head>
+<body>
+    <h1>This is a Diary about my gender identity and the perception of me by others in Japan.
+    </h1>
+    <nav>
+  <ul class="main-nav">
+    <li><a href="1213/index.html" class="box">12/13/2022</a></li>
+    <li><a href="224/index.html" class="box">2/24/2023</a></li>
+    <li><a href="327/index.html" class="box">3/27/2023</a></li>
+    <!-- <li><a href="#" class="box">3/5/2023</a></li> -->
+    <li><a href="53/index.html" class="box">5/3/2023</a></li>
+  </ul>
+</nav>
 
-        body {
-        background:white;
-        color:blue;
-        margin-top: 10px;
-        margin-bottom: 100px;
-        margin-right: 350px;
-        margin-left: 350px;
-        font-family: "Times New Roman", sans-serif;
-        font-size: 12pt;
-        }
-        
-         
-        
-        div {
-         animation: 
-            typing 6s steps(40, end);
-            blink-caret 2s;
-        }
-        
-        @keyframes typing {
-          from { width: 0 }
-          to { width: 100% }
-            }
-        
-        
-        
-        p.titleplace {margin-top: 80px;}
-        
-        p.introquote { color:#800000;
-        }G
-        a {color:black; text-decoration: none;}
-        
-        a.nav2:link {text-decoration:underline; color:blue;}
-        a.nav2:visited {color:#0000FF; text-decoration:none;}
-        a.nav2:hover {color:black;}
-        a.nav2:active {color:blue;}
-        
-        
-        a.navanother:link {text-decoration:underline; color:purple;}
-        a.navanother:visited {color:purple;}{text-decoration:none;}
-        a.navanother:hover {color:blue;}
-        a.navanother:active {color:blue;}
-        
-        
-        </style>
-        </head>
-        
-        <script>
-        
-        //Another Day West of the Field
-        //authoring exercise: JM
-        
-        //anything written after the double slashes is a remark
-        //that is not processed as code.
-        //You can substitute your remarks about your work here.
-        
-        //the next two lines generate the date and time
-        //when the program is run.
-        //Do not change them unless you know what you are doing.
-        
-        var y = new Date( )
-        
-        document.write("Generated on " + y);
-        </script>
-        
-        
-        <div>
-        <script>
-        
-        //substitute your own name for JM.
-        //substitute the title of your work for
-        //Another Day West of the Field
-        
-        document.write("<p class=\"titleplace\">JM<br><b>Another Day West of the Field</b></p>")
-        
-        document.write("<p></p>")
-        
-        //This is a shuffle
-        //which means that the reader will see all the variables
-        //but each time they will be in a different order
-        
-        //Below are the variables on which the computer will operate.
-        //In each variable, substitute your own text
-        //within the quotation marks.
-        //If you are using a quotation within your text,
-        //preface it with a \
-        //Do not put any <returns> between the two quote marks
-        //that deliminate the variable
-        //The safest way to create your program is to change one line
-        //and then run it.
-        //If it runs, do the next one.
-        //If it does not run, fix the line you just wrote and try again.
-        
-        //Otherwise, it will be difficult to find your mistake.
-        //Continue line by line until you are finished.
-        //In writing code, everything must be very precise.
-        //If you cannot find the mistake,
-        //erase the entire variable line and try again.
-        //The <br> is a line break.
-        // You can eliminate it if you don't want line breaks.
-        
-        //It is not suggested that you change the names of the variables
-        //until you have everything else working
-        //Then, for instance,
-        //if you change gardenc to horrorc you will need to also
-        //change it in the Array list
-        //to add variables, each new variable will need its own line,
-        // its own variable name, 
-        //and the new variable line should be added to the array field
-        
-        document.write("<p></p>")
-        
-        {
-        
-        var gardenc = "the 19 objects we collected in the game<br>";
-        
-        var gardend = "the windchimes play sonorously in different keys<br>";
-        
-        var gardenda = "the windchimes<br>";
-        
-        var gardene = "in the studio is a summer dress with blue and pink flowers<br>";
-        
-        var gardenf = "winter hats in many colors reside in a basket in the hall<br>";
-        
-        var gardeng = "two blue goblets suggest a long ago party<br>";
-        
-        var gardenh = "in the refrigerator, a six-pack of microbrew<br>";
-        
-        var gardeni = "gold-wrapped white chocolate truffles in the candy jar<br>";
-        
-        var gardenj = "your black leather gloves on the seat of the car <br>";
-        
-        var gardenk = "midnight light from our hand-operated lantern<br>";
-        
-        var gardenka = "midnight light<br>";
-        
-        var gardenm = "the path that leads to the meadow<br>";
-        
-        var gardenma = "<i>To the Lighthouse</i> on the bedside table<br>";
-        
-        var gardenn= "the unfinished manuscipt<br>";
-        
-        var gardeno= "on a blue shower curtain, sailboats are moored in the harbor<br>";
-        
-         
-        
-        var gardenspace = "<p></p>";
-        
-        var textgarden = new Array(gardenc,gardend,gardenda,gardene,gardenf,gardeng,gardenh,gardeni,gardenj,gardenk,gardenka,gardenm,gardenma,gardenn,gardeno,gardenspace,gardenspace);
-        
-        for (j = 0; j <textgarden.length; j++) {
-        k = Math.floor(Math.random() *textgarden.length);
-        temp = textgarden[j];
-        textgarden[j] = textgarden[k];
-        textgarden[k] = temp;
-        }
-        
-        var garden = textgarden.join(" ");
-        
-        document.write(garden);
-        
-        }
-        
-        //substitute your own filename for the html file 
-        //and you own prompt for Another Day West of the Field
-        
-        
-        </script>
-        </div>
-        <br>
-        
-        <br>
-        <a href="shuffle23.html" class="navanother">Another Day West of the Field?</a>
-        
-        
-        </body>
-        </html>
+</body>
+</html>

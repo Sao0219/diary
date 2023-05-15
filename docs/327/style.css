@@ -1,0 +1,42 @@
+body {
+    background: #2125a3ff;
+    color:#1ffe27;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    margin-left: 350px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 12pt;
+    }
+    
+     
+    
+    div {
+     animation: 
+        typing 6s steps(40, end);
+        blink-caret 2s;
+    }
+    
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+        }
+    
+    
+    
+    p.titleplace {margin-top: 80px;}
+    
+    p.introquote { color:#800000;
+    }G
+    a {color:black; text-decoration: none;}
+    
+    a.nav2:link {text-decoration:underline; color:blue;}
+    a.nav2:visited {color:#0000FF; text-decoration:none;}
+    a.nav2:hover {color:black;}
+    a.nav2:active {color:blue;}
+    
+    
+    a.navanother:link {text-decoration:underline; color:purple;}
+    a.navanother:visited {color:purple;}{text-decoration:none;}
+    a.navanother:hover {color:blue;}
+    a.navanother:active {color:blue;}
